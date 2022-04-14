@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xay dung lop mo ta hcn</title>
+</head>
+<body>
+<script>
+    class Rectangle {
+        constructor(length,width) {
+            this.length = length;
+            this.width = width;
+        }
+        acr () {
+            let s = this.length * this.width;
+            return s;
+        }
+        per () {
+            let p = (this.length+this.width)*2;
+            return p;
+        }
+    }
+
+    let hcn = new Rectangle(5,2);
+    let dienTich = hcn.acr();
+    let chuVi = hcn.per()
+    console.log(dienTich)
+    console.log(chuVi)
+
+
+
+</script>
+</body>
+</html>
